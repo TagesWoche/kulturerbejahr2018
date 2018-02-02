@@ -1,0 +1,453 @@
+
+@import 'reset';
+@import 'font-face';
+@import 'variables';
+@import 'layout';
+@import 'breakpoint';
+
+
+body {
+  min-height: 100vh;
+  background: #FFFFFF; /* Old browsers */
+}
+
+
+/*header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height:61px;
+  background-color:$lightgrey;
+  border-bottom:1px solid $mediumgrey;
+  display:block;
+  transition:all 1s ease;
+
+}
+
+header > div img {
+  height:40px;
+  float:left;
+  margin:10px 0 0 1%;
+}*/
+
+footer {
+  height:75px;
+  background-color:$lightgrey;
+  border-top:1px solid $mediumgrey;
+  display:block;
+}
+
+footer p {
+  padding:0 15px;
+  margin-top:28px;
+  @include MQ(S) {
+    padding:0 10px;
+  }
+}
+
+nav {
+  float:right;
+  margin-top:5px;
+}
+
+nav ul {
+  margin:15px 0 2px 0;
+
+}
+
+nav img {
+  float:left;
+  height:40px;
+  margin-right:2px;
+}
+
+nav li {
+  float:right;
+  margin-right:4px;
+
+}
+
+li a:hover {
+  text-decoration:underline !important;
+}
+
+.header_wrapper {
+  width:100%;
+  margin:0 auto;
+  background-color: rgba($color__white, .997);
+}
+
+.container {
+  @include site--gutter;
+  justify-content: space-between;
+}
+
+.button-wrapper {
+  height: auto;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: lighten(black, 80%);
+}
+
+.intro {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  @include breakpoint($breakpoint--m) {
+    padding-top: 50px;
+
+  }
+}
+
+// font formats
+
+h1 {
+  @include NeueHaasGrotDisp-65Medium-Web;
+  font-size: $titel-size-mobile;
+  color: black;
+  margin: 0 auto;
+  line-height: $titel-lineheight-S;
+  max-width:$max-width-content - 50;
+  @include breakpoint($breakpoint--m) {
+    font-size: $titel-size;
+    line-height: $titel-lineheight-M;
+  }
+}
+
+h2 {
+  @include NeueHaasGrotDisp-55Roman-Web;
+  margin: 20px auto;
+  font-size: 28px;
+  color:black;
+  line-height:32px;
+  font-size: $titel-size-mobile - 10;
+  line-height: $titel-lineheight-S - 10;
+  max-width:$max-width-content - 50;
+  @include breakpoint($breakpoint--m) {
+    font-size: $titel-size - 18;
+    line-height: $titel-lineheight-M - 18;
+  }
+}
+
+p, li, a, span {
+  @include NeueHaasGrotDisp-65Medium-Web;
+  font-size: $laufschrift-size-mobile;
+  line-height:$laufschrift-lineheight-S;
+  margin-bottom:5px;
+}
+
+h3 {
+  @include NeueHaasGrotDisp-65Medium-Web;
+  font-size: 1.65em;
+  margin: 0 0 30px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image-wrapper > a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: 100%;
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+  @include MQ(S) {
+    margin-right: 0;
+    width: calc(100%);
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .image-wrapper > a {
+    width: calc(33.333333333% - 8px);
+  }
+
+ /* .image-wrapper > a:nth-of-type(4n-7) {
+    width: calc(100% - 17px);
+  }*/
+
+  .image-wrapper > a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+  .image-wrapper > a:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+
+
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+.image-overview {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .3s ease-in-out;
+}
+
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 200000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  @include MQ(S) {
+    display: none;
+  }
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  margin-top: 60px;
+  display: block;
+  max-height: 90vh;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Close Button */
+.download {
+  position: absolute;
+  width: 30px;
+  top: 15px;
+  left: 15px;
+  color: #f1f1f1;
+  font-weight: bold;
+  transition: 0.3s;
+  svg {
+        width: 90%;
+        max-width: 90%;
+        fill: white;
+      }
+  span {
+    position: absolute;
+    left: 38px;
+    font-size: 24px;
+  }
+}
+
+.social-modal {
+  color: white !important;
+    font-size: 30px !important;
+    position: absolute;
+    top: 13px;
+    left: 60px;
+  }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.fa {
+  font-size: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+  @include breakpoint($breakpoint--m) {
+    font-size: 24px;
+  }
+}
+
+
+.fa:hover {
+  color: lighten(black, 20%);
+}
+
+.site-header {
+    @include site--gutter;
+    background-color: rgba($color__white, .997);
+    display: flex;
+    justify-content: space-between;
+    height: $header__height--mobil;
+    border-bottom: 3px solid #000;
+    @include breakpoint($breakpoint--m) {
+        height: $header__height--desktop;
+    }
+
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.site {
+    background-color: $color__white;
+}
+
+.site-branding {
+    flex: 1 0 100%;
+    max-width: 120px;
+    width: 120px;
+    padding-top: $space--sm;
+    @include breakpoint( $breakpoint--m ) {
+        max-width: 190px;
+        width: 190px;
+        padding-top: $space--m;
+
+    }
+
+    svg {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+.site-title {
+    margin: 0;
+
+    svg {
+        fill: $color__black;
+        max-height: 65px;
+    }
+}
+
+.nook {
+    svg * {
+        fill: $color__primary;
+    }
+
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 4px;
+    left: 0;
+    transform: translateX( calc( 100vw - 45px ) ) translateY(5px);
+
+    @include breakpoint($breakpoint--m) {
+        transform: translateX( calc( 50vw + ( #{($site__width--m - $grid--gap) / 2} + 10px ) ) ) translateY(5px);
+    }
+
+    @include breakpoint($breakpoint--l) {
+        transform: translateX( calc( 50vw + ( #{($site__width--l - $grid--gap) / 2} + 10px ) ) ) translateY(5px);
+    }
+
+    @include breakpoint($breakpoint--xl) {
+        transform: translateX( calc( 50vw + ( #{($site__width--xl - $grid--gap) / 2} + 20px ) ) ) translateY(5px);
+    }
+
+    @media all and (-ms-high-contrast:none) {
+        //.foo { color: green } /* IE10 */
+        *::-ms-backdrop, & { right: 0; transform: none; } /* IE11 */
+    }
+
+}
+
+@keyframes hideVisual {
+    0% {opacity: 100%; visibility: visible;}
+    
+    100% {opacity:0; visibility: hidden;}
+}
+
+.social_container {
+  display: flex;
+  padding-right: 30px;
+  padding-top: $space--xs;
+  @include breakpoint($breakpoint--m) {
+    padding-right: 0;
+    padding-top: 0;
+
+  }
+}
+
+
+.social_buttons {
+  align-self: center;
+  padding-right: 2px;
+}
+
+.fa-chevron-left {
+    color:white; 
+    position: absolute; 
+    top: 40vh; 
+    left: 10px; 
+    cursor: pointer;
+}
+
+.fa-chevron-right {
+    color:white; 
+    position: absolute; 
+    top: 40vh; 
+    right: 10px; 
+    cursor: pointer;
+}
+
