@@ -1,7 +1,7 @@
 <fotimat-overview>
 
     <div class="image-wrapper">
-        <a each="{ entry in opts.alldata }" href="#" onclick="{ openmodal }">
+        <a each="{ entry in opts.alldata }" href="#" class="image-item { is-topic: entry.topic }" onclick="{ openmodal }">
             <h3>{ entry.title }</h3>
             <figure>
                 <img class="image-overview" src="{ entry.image }" alt="">

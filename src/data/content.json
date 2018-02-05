@@ -1,38 +1,48 @@
 [
-  {
+    {
+    "topic": true,
+    "title": "erste Topic-Line"
+    },
+    {
+    "topic": false,
     "title": "1. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "<b>Bild: Vorname Nachname</b> Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     },
     {
+    "topic": false,
     "title": "2. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     },
     {
+    "topic": false,
     "title": "3. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     },
     {
+    "topic": false,
     "title": "1. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     },
     {
+    "topic": false,
     "title": "1. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     },
     {
+    "topic": false,
     "title": "1. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     },
     {
+    "topic": false,
     "title": "1. Rang",
     "image": "images/ff16_010146.jpg",
     "credit": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
     }
-
 ]
