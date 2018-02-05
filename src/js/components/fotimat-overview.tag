@@ -25,7 +25,7 @@
 
 
         this.openmodal = function (e) {
-            opts.onpictureclick(e.item.entry)
+            if(!e.item.entry.topic) opts.onpictureclick(e.item.entry)
         }
 
     </script>
