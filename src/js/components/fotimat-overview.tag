@@ -23,7 +23,6 @@
             opts.onmoreclick(e)
         }
 
-
         this.openmodal = function (e) {
             if(!e.item.entry.topic) opts.onpictureclick(e.item.entry)
         }

@@ -169,7 +169,6 @@ h3 {
 }
 
 .image-item {
-  cursor: pointer;
   display: inline-block;
   margin-bottom: 25px;
   width: 100%;
@@ -183,12 +182,11 @@ h3 {
 }
 
 @media screen and (min-width: 50em) {
-  .image-item {
+  .image-item  {
     width: calc(33.333333333% - 8px);
   }
   .is-topic {
     width: 100%;
-    cursor: auto;
   }
 
  /* .image-wrapper > a:nth-of-type(4n-7) {
@@ -199,7 +197,7 @@ h3 {
     margin-right: 8px;
   }
 
-  .image-item:nth-of-type(3n) {
+  .image-item:nth-of-type(4n) {
     margin-right: 0;
   }
 }
