@@ -94,8 +94,9 @@ li a:hover {
 }
 
 .button {
-  background-color: white;
-  color: black;
+  font-weight: normal;
+  background-color: $tawo;
+  color: white;
   border-radius: 100px;
   border: none;
   padding: 10px 20px;
@@ -108,7 +109,7 @@ li a:hover {
 }
 
 .button:hover {
-  background-color: lighten(black, 80%);
+  background-color: darken($tawo, 10%);
 }
 
 .intro {
