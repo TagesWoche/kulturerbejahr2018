@@ -5,7 +5,7 @@
             <h3>{ entry.title }</h3>
             <figure hide={ entry.topic }>
                 <img class="image-overview" src="{ entry.image }" alt="">
-                <figcaption>{ entry.credit }</figcaption>
+                <figcaption><strong>{ entry.credit }</strong> { entry.legend }</figcaption>
             </figure>
         </a>
 
