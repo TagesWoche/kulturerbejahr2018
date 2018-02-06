@@ -1,55 +1,52 @@
 [
     {
     "topic": true,
-    "title": "erste Topic-Line"
+    "title": "Ein neues Wochenthema"
     },
     {
     "topic": false,
     "title": "1. Rang",
     "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
+    "credit": "Bild: Hans Muster",
+    "legend": "Das hier ist eine Bildunterschrift. Was genau in dieser Unterschrift steht, steht noch in den Sternen."
     },
     {
     "topic": false,
     "title": "2. Rang",
     "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
+    "credit": "Bild: Hans Muster",
+    "legend": "Das hier ist eine Bildunterschrift. Was genau in dieser Unterschrift steht, steht noch in den Sternen."
     },
     {
     "topic": false,
     "title": "3. Rang",
     "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
+    "credit": "Bild: Hans Muster",
+    "legend": "Das hier ist eine Bildunterschrift. Was genau in dieser Unterschrift steht, steht noch in den Sternen."
+    },
+    {
+    "topic": true,
+    "title": "Ein älteres Wochenthema"
     },
     {
     "topic": false,
     "title": "1. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
+    "image": "images/hochformat-crop.jpg",
+    "credit": "Bild: Hans Muster",
+    "legend": "Bild im Hochformat, Lösungsvorschlag Eins: Bild wird oben und unten abgeschnitten."
     },
     {
     "topic": false,
-    "title": "1. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
+    "title": "2. Rang",
+    "image": "images/hochformat-fake.jpg",
+    "credit": "Bild: Hans Muster",
+    "legend": "Bild im Hochformat, Lösungsvorschlag Zwei: Bild wird im Querformat gezeigt mit Hintergrund."
     },
     {
     "topic": false,
-    "title": "1. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
-    },
-    {
-    "topic": false,
-    "title": "1. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Mike Müller",
-    "legend": "Das hier ist eine Bildunterschrift. Eine Bildunterschrift kann gerne auch mal ein wenig länger sein und wahrscheinlich steht dann hier auch ziemlich viel blödes, dummes, saudummes oder idiotisches. Vielleicht aber auch einfach nur PENIS!"
+    "title": "3. Rang",
+    "image": "images/hochformat.jpg",
+    "credit": "Bild: Hans Muster",
+    "legend": "Bild im Hochformat, Lösungsvorschlag Drei: Bild wird als Hochformat ausgegeben."
     }
 ]
