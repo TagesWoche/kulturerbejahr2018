@@ -1,52 +1,27 @@
 [
     {
     "topic": true,
-    "title": "Ein neues Wochenthema"
+    "title": "Thema Woche 1: Stadtlandschaften"
     },
     {
     "topic": false,
-    "title": "1. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Hans Muster",
-    "legend": "Das hier ist eine Bildunterschrift. Was genau in dieser Unterschrift steht, steht noch in den Sternen."
+    "title": "Auftakt mit Kathrin Schulthess",
+    "image": "images/schulthess1.jpg",
+    "credit": "Bild: © kathrin schulthess fotografie",
+    "legend": " "
     },
     {
     "topic": false,
-    "title": "2. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Hans Muster",
-    "legend": "Das hier ist eine Bildunterschrift. Was genau in dieser Unterschrift steht, steht noch in den Sternen."
+    "title": " ",
+    "image": "images/schulthess2.jpg",
+    "credit": "Bild: © kathrin schulthess fotografie",
+    "legend": " "
     },
     {
     "topic": false,
-    "title": "3. Rang",
-    "image": "images/ff16_010146.jpg",
-    "credit": "Bild: Hans Muster",
-    "legend": "Das hier ist eine Bildunterschrift. Was genau in dieser Unterschrift steht, steht noch in den Sternen."
-    },
-    {
-    "topic": true,
-    "title": "Ein älteres Wochenthema"
-    },
-    {
-    "topic": false,
-    "title": "1. Rang",
-    "image": "images/hochformat-crop.jpg",
-    "credit": "Bild: Hans Muster",
-    "legend": "Bild im Hochformat, Lösungsvorschlag Eins: Bild wird oben und unten abgeschnitten."
-    },
-    {
-    "topic": false,
-    "title": "2. Rang",
-    "image": "images/hochformat-fake.jpg",
-    "credit": "Bild: Hans Muster",
-    "legend": "Bild im Hochformat, Lösungsvorschlag Zwei: Bild wird im Querformat gezeigt mit Hintergrund."
-    },
-    {
-    "topic": false,
-    "title": "3. Rang",
-    "image": "images/hochformat.jpg",
-    "credit": "Bild: Hans Muster",
-    "legend": "Bild im Hochformat, Lösungsvorschlag Drei: Bild wird als Hochformat ausgegeben."
+    "title": " ",
+    "image": "images/schulthess3.jpg",
+    "credit": "Bild: © kathrin schulthess fotografie",
+    "legend": " "
     }
 ]

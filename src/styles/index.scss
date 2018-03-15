@@ -145,7 +145,7 @@ h1 {
   }
 }
 
-h2 {
+h2, h2 a {
   @include NeueHaasGrotDisp-55Roman-Web;
   margin: 20px auto;
   font-size: 28px;
@@ -158,6 +158,27 @@ h2 {
     font-size: $titel-size - 18;
     line-height: $titel-lineheight-M - 18;
   }
+}
+
+h2 a {
+    color:#30a370;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+.intro > a:last-child {
+    color:dimgrey;
+    font-weight:normal;
+    font-size:12px;
+    text-decoration: none;
+    display:inline-block;
+    margin:20px 0 0 20px;
+}
+.intro > a:last-child:hover {
+    text-decoration: underline;
 }
 
 p, li, a, span {
