@@ -8,10 +8,11 @@
         <a class="download" download="{ opts.clickedimage.image }" href="{ opts.clickedimage.image }" title="{ opts.clickedimage.title }">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 433.5 433.5" style="enable-background:new 0 0 433.5 433.5;" xml:space="preserve"><g><g id="file-download"><path d="M395.25,153h-102V0h-153v153h-102l178.5,178.5L395.25,153z M38.25,382.5v51h357v-51H38.25z"/></g></g></svg></a>
 
+<!--
         <a href="" target="_blank"><i class="fa fa-twitter social-modal"></i></a>
 
         <a href="" target="_blank"><i class="fa fa-facebook social-modal" style="left: 110px;"></i></a>
-
+-->
         <!-- Modal Content (The Image) -->
        <img riot-src={ opts.clickedimage.image } class="modal-content" id="{ opts.clickedimage.image }">
 

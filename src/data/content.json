@@ -1,27 +1,27 @@
 [
     {
     "topic": true,
-    "title": "Thema Woche 1: Stadtlandschaften"
+    "title": "Auftakt mit Kathrin Schulthess"
     },
     {
     "topic": false,
-    "title": "Auftakt mit Kathrin Schulthess",
+    "title": " ",
     "image": "images/schulthess1.jpg",
-    "credit": "Bild: © kathrin schulthess fotografie",
+    "credit": "© kathrin schulthess fotografie",
     "legend": " "
     },
     {
     "topic": false,
     "title": " ",
     "image": "images/schulthess2.jpg",
-    "credit": "Bild: © kathrin schulthess fotografie",
+    "credit": "© kathrin schulthess fotografie",
     "legend": " "
     },
     {
     "topic": false,
     "title": " ",
     "image": "images/schulthess3.jpg",
-    "credit": "Bild: © kathrin schulthess fotografie",
+    "credit": "© kathrin schulthess fotografie",
     "legend": " "
     }
 ]
