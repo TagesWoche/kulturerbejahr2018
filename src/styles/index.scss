@@ -130,6 +130,19 @@ li a:hover {
   }
 }
 
+#bannerweb {
+    width:100%;
+}
+/*
+#bannermobile {
+    width:100%;
+    display:block;
+    @include breakpoint($breakpoint--m) {
+        display:none;
+
+  }
+}
+
 #banner {
   background:url("../images/banner-mobile.jpg") no-repeat;
     display:block;
@@ -141,11 +154,15 @@ li a:hover {
   @include breakpoint($breakpoint--m) {
       background-image:url("../images/banner-web.jpg");
       height:250px;
-      width:994px;
+      width:1180px;
+      
+  }
+    @include breakpoint($breakpoint--l) {
+      height:297px;
       
   }
 }
-
+*/
 fotimat-overview figcaption > strong {
     display:block;
 }
