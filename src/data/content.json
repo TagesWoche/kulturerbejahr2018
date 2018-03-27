@@ -1,27 +1,53 @@
 [
     {
     "topic": true,
+    "title": "Woche 1: Stadtlandschaften"
+    },
+    {
+    "topic": false,
+    "title": "1. Preis",
+    "image": "images/hochreutener1.jpg",
+    "credit": "",
+    "legend": "Michael Hochreutener, Basel"
+    },
+    {
+    "topic": false,
+    "title": "2. Preis",
+    "image": "images/bonefacic1.jpg",
+    "credit": "",
+    "legend": "Dina Bonefacic-Mihaljek, Oberwil"
+    },
+    {
+    "topic": false,
+    "title": "3. Preis",
+    "image": "images/frommherz1.jpg",
+    "credit": "",
+    "legend": "Barbara Frommherz, Münchenstein"
+    },
+    
+    {
+    "topic": true,
     "title": "Auftakt mit Kathrin Schulthess"
     },
     {
     "topic": false,
     "title": " ",
     "image": "images/schulthess1.jpg",
-    "credit": "© kathrin schulthess fotografie",
-    "legend": " "
+    "credit": "",
+    "legend": "© kathrin schulthess fotografie"
     },
     {
     "topic": false,
     "title": " ",
     "image": "images/schulthess2.jpg",
-    "credit": "© kathrin schulthess fotografie",
-    "legend": " "
+    "credit": "",
+    "legend": "© kathrin schulthess fotografie"
     },
     {
     "topic": false,
     "title": " ",
     "image": "images/schulthess3.jpg",
-    "credit": "© kathrin schulthess fotografie",
-    "legend": " "
+    "credit": "",
+    "legend": "© kathrin schulthess fotografie"
     }
 ]
