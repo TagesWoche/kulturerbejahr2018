@@ -1,6 +1,32 @@
 [
     {
     "topic": true,
+    "title": "Woche 2: Hohe Türme"
+    },
+    {
+    "topic": false,
+    "title": "1. Rang",
+    "image": "images/digallo1.jpg",
+    "credit": "",
+    "legend": "Alain Di Gallo, Basel"
+    },
+    {
+    "topic": false,
+    "title": "2. Rang",
+    "image": "images/bagutti1.jpg",
+    "credit": "",
+    "legend": "Claudia Bagutti, Basel"
+    },
+    {
+    "topic": false,
+    "title": "3. Rang",
+    "image": "images/vogt1.jpg",
+    "credit": "",
+    "legend": "Sabine Vogt, Riehen"
+    },
+    
+    {
+    "topic": true,
     "title": "Woche 1: Stadtlandschaften"
     },
     {
