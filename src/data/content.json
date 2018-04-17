@@ -1,6 +1,31 @@
 [
     {
     "topic": true,
+    "title": "Woche 4: Sinnliche Materialien"
+    },
+    {
+    "topic": false,
+    "title": "1. Rang",
+    "image": "images/bonefacic2.jpg",
+    "credit": "",
+    "legend": "Dina Bonefacic-Mihaljek, Oberwil"
+    },
+    {
+    "topic": false,
+    "title": "2. Rang",
+    "image": "images/legrand1.jpg",
+    "credit": "",
+    "legend": "Etienne le Grand, Saint-Louis"
+    },
+    {
+    "topic": false,
+    "title": "3. Rang",
+    "image": "images/moss1.jpg",
+    "credit": "",
+    "legend": "Kirstin Moss, Basel"
+    },
+    {
+    "topic": true,
     "title": "Woche 3: Prägnante Fassaden"
     },
     {
