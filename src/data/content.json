@@ -1,6 +1,31 @@
 [
     {
     "topic": true,
+    "title": "Woche 5: Terrassenkultur"
+    },
+    {
+    "topic": false,
+    "title": "1. Rang",
+    "image": "images/gruntz1.jpg",
+    "credit": "",
+    "legend": "Lukas Gruntz, Basel"
+    },
+    {
+    "topic": false,
+    "title": "2. Rang",
+    "image": "images/bonefacic3.jpg",
+    "credit": "",
+    "legend": "Dina Bonefacic-Mihaljek, Oberwil"
+    },
+    {
+    "topic": false,
+    "title": "3. Rang",
+    "image": "images/vogt3.jpg",
+    "credit": "",
+    "legend": "Sabine Vogt, Basel"
+    },
+    {
+    "topic": true,
     "title": "Woche 4: Sinnliche Materialien"
     },
     {
