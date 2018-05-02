@@ -7,14 +7,20 @@
 
     <script type="text/babel">
 
-        console.log(opts.contentData)
-
         this.arrayEnd = 9
         this.nextEnd = this.arrayEnd + 9
 
-        this.subset = opts.contentData.slice(0, this.arrayEnd)
+<!--         TODO: slide show behavior is broken. Actually, we shoud filter out entries without images. But if i filter it with the line below, the index is wrong.
 
-        console.log("subset: ", this.subset)
+        let imageData = opts.contentData.filter(d => d.image) 
+
+        console.log(imageData)b
+
+        -->
+
+
+
+        this.subset = opts.contentData.slice(0, this.arrayEnd)
 
         const preloadData = (start, end) => {
             let nextSubset = opts.contentData.slice(start, end)
@@ -69,8 +75,6 @@
                 showNext: (opts.contentData.length - 1 == opts.contentData.indexOf(url)) ? false : true,
                 showPrevious: (opts.contentData.indexOf(url) == 0) ? false : true
             })
-            console.log("Array", opts.contentData.length)
-            console.log("Picture Index", this.indexImage)
         }
 
         this.closeModal = () => {
