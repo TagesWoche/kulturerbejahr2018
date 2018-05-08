@@ -1,6 +1,31 @@
 [
     {
     "topic": true,
+    "title": "Woche 7: Schönes Detail"
+    },
+    {
+    "topic": false,
+    "title": "1. Rang",
+    "image": "images/Woche7-1_Julia_Spreng_Basel.jpg",
+    "credit": "",
+    "legend": "Julia Spreng, Basel"
+    },
+    {
+    "topic": false,
+    "title": "2. Rang",
+    "image": "images/Woche7-2_Dina Bonefacic-Mihaljek_Oberwil.jpg",
+    "credit": "",
+    "legend": "Dina Bonefacic-Mihaljek, Oberwil"
+    },
+    {
+    "topic": false,
+    "title": "3. Rang",
+    "image": "images/Woche7-3_Pai Mei_Basel.jpg",
+    "credit": "",
+    "legend": "Pai Mei, Basel"
+    },
+    {
+    "topic": true,
     "title": "Woche 6: Selbstgebautes",
     "disclaimer": "Jurierung der eingegangenen Fotos wurde aufgrund von zuwenig Einsendungen abgesagt."
     },
@@ -13,7 +38,6 @@
     {
     "topic": false
     },
-
     {
     "topic": true,
     "title": "Woche 5: Terrassenkultur"
