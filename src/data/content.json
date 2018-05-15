@@ -1,6 +1,31 @@
 [
     {
     "topic": true,
+    "title": "Woche 8: Innenraum mit Charme"
+    },
+    {
+    "topic": false,
+    "title": "1. Rang",
+    "image": "images/Woche8_1_Michael Gunti_Basel.jpg",
+    "credit": "",
+    "legend": "Michael Gunti, Basel"
+    },
+    {
+    "topic": false,
+    "title": "2. Rang",
+    "image": "images/Woche8_2_Dina Bonefacic-Mihaljek_Oberwil.jpg",
+    "credit": "",
+    "legend": "Dina Bonefacic-Mihaljek, Oberwil"
+    },
+    {
+    "topic": false,
+    "title": "3. Rang",
+    "image": "images/Woche8_3_Lisa Haller_Basel.JPG",
+    "credit": "",
+    "legend": "Lisa Haller, Basel"
+    },
+    {
+    "topic": true,
     "title": "Woche 7: Schönes Detail"
     },
     {
