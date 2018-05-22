@@ -1,6 +1,31 @@
 [
     {
     "topic": true,
+    "title": "Woche 9: Mein Baudenkmal"
+    },
+    {
+    "topic": false,
+    "title": "1. Rang",
+    "image": "images/Woche9_1_Michael-Gunti_Basel.jpg",
+    "credit": "",
+    "legend": "Michael Gunti, Basel"
+    },
+    {
+    "topic": false,
+    "title": "2. Rang",
+    "image": "images/Woche9_2_Jintana-Wesseling_Groningen,NL.jpg",
+    "credit": "",
+    "legend": "Jintana Wesseling, Gronlingen, NL"
+    },
+    {
+    "topic": false,
+    "title": "3. Rang",
+    "image": "images/Woche9_3_Sabine-Vogt_Basel.jpg",
+    "credit": "",
+    "legend": "Sabine Vogt, Basel"
+    },
+    {
+    "topic": true,
     "title": "Woche 8: Innenraum mit Charme"
     },
     {
@@ -20,7 +45,7 @@
     {
     "topic": false,
     "title": "3. Rang",
-    "image": "images/Woche8_3_Lisa Haller_Basel.JPG",
+    "image": "images/Woche8_3_Lisa Haller_Basel.jpg",
     "credit": "",
     "legend": "Lisa Haller, Basel"
     },
